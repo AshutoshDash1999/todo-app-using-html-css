@@ -1,0 +1,63 @@
+body{
+    background: url(../images/bg_image.png);
+}
+
+.todo {
+    height:600px;
+    border: solid 6px rgb(119, 4, 75);
+    border-radius: 15px;
+    width:600px;
+    margin:40px auto;
+    
+}
+
+.header {
+    font-size: 35px;
+    background: linear-gradient(#c274c2, #fff591);
+    text-align: center;
+    padding:5px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: 'Lobster', cursive;
+}
+
+.tasks{
+    background: linear-gradient(#a3f7bf, #fff591);
+    border-radius: 0px 0px 15px 15px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.lists {
+    list-style: none;
+    font-size: 35px;
+    margin-top: -1px;
+    padding:10px;
+}
+
+input {
+    float: right;
+    width:25px;
+    height:25px;
+    padding:5px;
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    color: rgba(50,50,50,0.4);
+}
+input[type="checkbox"]{
+    position: relative;
+    top: 14px;
+    right:12px;
+    float: right;
+}
+
+li {
+    height:55px;
+    width:100%;
+    padding: 5px;
+    margin-left:-10px;
+}
+
+.greyish {
+    background-color: rgba(126, 124, 124, 0.2);
+}
