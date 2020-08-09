@@ -1,5 +1,5 @@
 # A To-Do App
-A simple To-Do site for internal management built using HTML, CSS.
+A simple To-Do web-app for internal management built using HTML, CSS.
 
 ### Screenshot
 
